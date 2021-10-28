@@ -21,6 +21,15 @@
     <maven.compiler.plugin.version>3.5.4</maven.compiler.plugin.version>
   </properties>
 
+  <dependencies>
+        <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+        </dependency>
+  </dependencies>
+
    <build>
         <plugins>
             <plugin>
